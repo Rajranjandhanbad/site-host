@@ -1,0 +1,100 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgb(226, 188, 126);
+    height: 200px;
+
+}
+.logo img{
+    height: 7vw;
+    margin: 0px 20px;
+}
+.title h1{
+    color: darkgoldenrod;
+    text-shadow: 2px 2px rgb(124, 91, 9);
+    margin: 0px 0px 5px 0px;
+    font-size: 3vw;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(167, 124, 55);
+    height: 35px;
+    flex-wrap: wrap;
+}
+ul li{
+    list-style: none;
+    margin: auto;
+}
+ul li a{
+    color: rgb(250, 235, 196);
+    text-decoration: none;
+}
+.main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 0px 0px 100px 0px;
+    flex-wrap: wrap;
+}
+.princi{
+    margin: 20px 0px 0px auto;
+}
+.content h2{
+    margin: 0px 0px 10px 0px;
+
+}
+.content{
+    margin: auto;
+    width: 1000px;
+    position: relative;
+    top: 0px;
+}
+.content p{
+    font-size: larger;
+}
+.content p i{
+    position: absolute;
+    right: 2px;
+}
+.courses h1{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 2vw;
+}
+.arrow{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+.branches{
+    display: flex;
+    margin: 30px 0px 20px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 0px auto;
+}
+.card img{
+    height: 10vw;
+    width: 10vw;
+}
+.courses ul{
+    display:flex;
+    margin: 0px auto;
+}
+.courses ul li{
+    list-style: none;
+    font-size: 1.25vw;
+    color: darkgoldenrod;
+}
